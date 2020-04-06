@@ -272,33 +272,33 @@ The final generated images:
 
 Loss for entire 10000 epoch:
 
-![DCGAN_10000](https://github.com/XiaosongWen/DS504CS586-S20/blob/master/project3\pic\loss_dcgan.png)
+![DCGAN_10000](https://github.com/XiaosongWen/DS504CS586-S20/blob/master/project3/pic/loss_dcgan.png)
 
 Here is a gif which indecates the flow if the trainning:
 
-![DCGAN_GIF](https://github.com/XiaosongWen/DS504CS586-S20/blob/master/project3\pic\DCGAN.gif)
+![DCGAN_GIF](https://github.com/XiaosongWen/DS504CS586-S20/blob/master/project3/pic/DCGAN.gif)
 
 The final generated images:
 
-![DCGAN_10000](https://github.com/XiaosongWen/DS504CS586-S20/blob/master/project3\pic\DCGAN_10000.png)
+![DCGAN_10000](https://github.com/XiaosongWen/DS504CS586-S20/blob/master/project3/pic/DCGAN_10000.png)
 
 ### CGAN:
 
 Loss for entire 50000 epoch:
 
-![CGAN_50000](https://github.com/XiaosongWen/DS504CS586-S20/blob/master/project3\pic\loss_cgan.png)
+![CGAN_50000](https://github.com/XiaosongWen/DS504CS586-S20/blob/master/project3/pic/loss_cgan.png)
 
 However, it seem that after the model converge after around 1000 epoch:
 
-![CGAN_1000](https://github.com/XiaosongWen/DS504CS586-S20/blob/master/project3\pic\loss_cgan_2000.png)
+![CGAN_1000](https://github.com/XiaosongWen/DS504CS586-S20/blob/master/project3/pic/loss_cgan_2000.png)
 
 Here is a gif which indecates the flow if the trainning:
 
-![CGAN_GIF](https://github.com/XiaosongWen/DS504CS586-S20/blob/master/project3\pic\CGAN.gif)
+![CGAN_GIF](https://github.com/XiaosongWen/DS504CS586-S20/blob/master/project3/pic/CGAN.gif)
 
 The final generated images:
 
-![CGAN_50000](https://github.com/XiaosongWen/DS504CS586-S20/blob/master/project3\pic\CGAN_50000.png)
+![CGAN_50000](https://github.com/XiaosongWen/DS504CS586-S20/blob/master/project3/pic/CGAN_50000.png)
 
 ## Other Dataset:
 
@@ -306,6 +306,6 @@ I also tried the GAN model on the [Fashion MNIST](https://research.zalando.com/w
 
 Here are my result, 
 
-![](https://github.com/XiaosongWen/DS504CS586-S20/blob/master/project3\pic\gan_fashion.gif)
+![](https://github.com/XiaosongWen/DS504CS586-S20/blob/master/project3/pic/gan_fashion.gif)
 
-![](https://github.com/XiaosongWen/DS504CS586-S20/blob/master/project3\pic\Fashion_GAN_50000.png)
+![](https://github.com/XiaosongWen/DS504CS586-S20/blob/master/project3/pic/Fashion_GAN_50000.png)
