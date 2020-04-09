@@ -9,6 +9,13 @@
 ## Goal
 In project 2, you were given a bunch of drivers and their trajectories to build a model to classify which driver a given trajectory belongs to. In this project, we will give you a harder task. In project 2, the training data contain 5 drivers and 6-month trajectories for each driver. In this task, however, the trainning data contain 500 drivers and only 5-day trajectories for each driver. In this task, you should use meta-learning and/or few shot learning to build the classification model. The model for each driver can be a binary classification, which takes two trajectories as input and predict whether these two trajectories belongs to the same driver. 
 
+## Current Leaderboard
+| rank | Name | Accuracy |
+|---|---|---|
+|   |   | |
+|   |    |    |
+|  |      |   |
+
 ## Evaluation
 To evaluation your submission, a seperate test dataset will be held. For each driver, the test data will contains 10 different trajectories. We will randomly generate 20,000 trajectory pairs and use them to evaluate your submitted model. Like project 2, you should submit a evaluation.py file containing how to process the model and how to run prediction. 
 
@@ -54,11 +61,14 @@ To evaluation your submission, a seperate test dataset will be held. For each dr
         b. Performance comparing to your baselines (maybe different network structure) (5)
         c. Hyperparameter (learning rate, dropout, activation) (5)
     4. Conclusion (5)
+   * Bonus (5):
+   
+     5 bonus points for the top 3 on the leader board.
 
 ## Project Guidelines
 
 #### Dataset Description
-The data is binary pickled file. The data is stored in a dictionary, in which the key is ID of a driver and value is list of his/her trajectories. For each trajectory, the basic element is similar to project 2. Each element in the trajectory is in the following format, [ plate, longitude, latitude, second_since_midnight, status, time ]. Data can be found at [Google Drive](https://drive.google.com/file/d/1aHGJx2KtzjCRlfPYefPaGPl3e5lyJTX-/view?usp=sharing)
+The data is binary pickled file. The data is stored in a dictionary, in which the key is ID of a driver and value is list of his/her trajectories. For each trajectory, the basic element is similar to project 2. Each element in the trajectory is in the following format, [ plate, longitude, latitude, second_since_midnight, status, time ]. Data can be found at [Google Drive](https://drive.google.com/file/d/1aHGJx2KtzjCRlfPYefPaGPl3e5lyJTX-/view?usp=sharing). The training data contain **500** drivers and **5**-day trajectories for each driver.
 #### Feature Description 
 * **Plate**: Plate means the taxi's plate. In this project, we change them to 0~500 to keep anonymity. Same plate means same driver, so this is the target label for the classification. 
 * **Longitude**: The longitude of the taxi.
