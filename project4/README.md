@@ -12,9 +12,9 @@ In project 2, you were given a bunch of drivers and their trajectories to build 
 ## Current Leaderboard
 | rank | Name | Accuracy |
 |---|---|---|
-|   |   | |
-|   |    |    |
-|  |      |   |
+|1   |Zhao, Zixuan   |0.88 |
+|2   |Charbonneau, Jack    |0.811    |
+|3  |Sun, Manyang      |0.806   |
 
 ## Evaluation
 To evaluation your submission, a seperate test dataset will be held. For each driver, the test data will contains 10 different trajectories. We will randomly generate 20,000 trajectory pairs and use them to evaluate your submitted model. Like project 2, you should submit a evaluation.py file containing how to process the model and how to run prediction. 
@@ -81,7 +81,7 @@ The data is binary pickled file. The data is stored in a dictionary, in which th
 Given two full-day trajectories,  you need to predict whether those two given trajectories belongs to the same driver. 
 
 #### Evaluation 
-Two days of trajectories will be used to evaluate your submission. And test trajectories are not in the data/ folder. However, we have provided a validation dataset. The [validate_set.pkl](https://drive.google.com/open?id=1W3wPV0JE2OU7QuJvCA9HwgMceir0vQKD). contains validation data and [validate_label.pkl](https://drive.google.com/open?id=1iUX5kWMRaVYJzylNvB8_BJMkitDrL6Rp) contains labels. You can construct your own validation set based on the trajectories and their corresponding labels. Same as usual, you can use pickle.load() function to load the dataset and evaluate your model. 
+Two days of trajectories will be used to evaluate your submission. And test trajectories are not in the data/ folder. However, we have provided a validation dataset. The validate_set.pkl contains validation data and validate_label.pkl contains labels. You can construct your own validation set based on the trajectories and their corresponding labels. Same as usual, you can use pickle.load() function to load the dataset and evaluate your model. 
 ##### Feature Description of validation data
 * **Longitude**: The longitude of the taxi.
 * **Latitude**: The latitude of the taxi.
